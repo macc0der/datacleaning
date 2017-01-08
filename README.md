@@ -22,7 +22,7 @@
         df$Activity <- as.factor(df$Activity)
         levels(df$Activity) <- activity_labels
         `
-* The data set and its column names were then written to the output folder as two separate text files. **mean_and_standard_deviations.csv**, **mean_sd_features.tx**
+* The data set and its column names were then written to the output folder as two separate text files. **mean_and_standard_deviations.txt**, **mean_sd_features.tx**
 
 
 ###Constructing a data set with averages of the mean and standard deviation variables for every subject and activity combination
