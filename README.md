@@ -6,11 +6,11 @@
 * Once the files are extracted, the training and test data set files are read into their respective data frames
 * The activity labels and the subject data are read into their individual data frames for both training and test    data sets.
 * The traning and test data frames in their inital state don't have any column names. The variable names from the   variables.txt file were read and assigned as the names to the data frames. Before assigning the names, couple of   data cleaning steps were performed.
-        + There were few columns which had the word "Body" repeated in their names. So, we replaced all the                 occurences of "BodyBody" with "Body"
+* There were few columns which had the word "Body" repeated in their names. So, we replaced all the                 occurences of "BodyBody" with "Body"
                  `
                  variable_names <- gsub("BodyBody","Body",variable_names)
                 `
-        + There were also a group of columns that were duplicates. So, we removed the duplicates.
+ * There were also a group of columns that were duplicates. So, we removed the duplicates.
                  `
                         test_df <- test_df[,!duplicated(colnames(test_df))]
                         train_df <- train_df [,!duplicated(colnames(train_df ))]
