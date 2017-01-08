@@ -23,11 +23,11 @@ We also created a second data set which has average values of all the mean and s
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
-- 'mean_sd_features.txt': List of all variables which are mean and standard deviation of the features.
+- 'output/mean_sd_features.txt': List of all variables which are mean and standard deviation of the features.
 
-- 'averages_mean_sd_features.txt': List of all variables in the averages data set.
+- 'output/averages_mean_sd_features.txt': List of all variables in the averages data set.
 
-- 'output/mean_and_standard_deviations.csv': Data set which has the mean and standard deviation of feature variables
+- 'output/mean_and_standard_deviations.txt': Data set which has the mean and standard deviation of feature variables
 
-- 'output/averages_features.csv': Data set which has average values of all the mean and standard deviation features for every combination of subject and the activity they performed
+- 'output/averages_features.txt': Data set which has average values of all the mean and standard deviation features for every combination of subject and the activity they performed
 
