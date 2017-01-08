@@ -22,7 +22,7 @@
         df$Activity <- as.factor(df$Activity)
         levels(df$Activity) <- activity_labels
         `
-* The final output was then written to the output folder as a csv file. mean_and_standard_deviations.csv 
+* The final output was then written to the output folder as a csv file. *mean_and_standard_deviations.csv* 
 
 
 ###Constructing a data set with averages of the mean and standard deviation variables for every subject and activity combination
@@ -35,4 +35,4 @@
         `
         averages_df <- dcast(dfMelt, Subject + Activity ~ variable, mean)
         `
-* Finally, the data frame has been given descriptive names and written to the disk as a csv file in the output      folder. averages_features.csv
+* Finally, the data frame has been given descriptive names and written to the disk as a csv file in the output      folder. *averages_features.csv*
