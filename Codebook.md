@@ -5,7 +5,7 @@ The orignial data set was constructed with the data collected from the experimen
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-The original data set can be downloaded[here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The original data set can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##For each record in the original data set it has
 
@@ -25,8 +25,9 @@ We also created a second data set which has average values of all the mean and s
 
 - 'mean_sd_features.txt': List of all variables which are mean and standard deviation of the features.
 
+- 'averages_mean_sd_features.txt': List of all variables in the averages data set.
+
 - 'output/mean_and_standard_deviations.csv': Data set which has the mean and standard deviation of feature variables
 
 - 'output/averages_features.csv': Data set which has average values of all the mean and standard deviation features for every combination of subject and the activity they performed
 
-- 'averages_mean_sd_features.txt': List of all variables in the averages data set.
